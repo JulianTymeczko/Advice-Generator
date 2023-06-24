@@ -1,0 +1,95 @@
+* {
+    font-weight: 800;
+    font-family: 'Manrope', sans-serif;
+
+}
+
+body {
+    background-color: hsl(218, 23%, 16%);
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main {
+    background-color: hsl(217, 19%, 24%);
+   min-height: 358px;
+    width: 600px;
+    
+    border-radius: 20px;
+    padding: 45px;
+    position: relative;
+    max-height: 1000px
+}
+section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap:35px;
+    align-items: center;
+    height: 100%;
+    
+   
+    
+
+
+}
+
+.dice{
+    width: 70px;
+    height: 70px;
+    border: 2px solid hsl(150, 100%, 66%);
+    padding: 15px;
+    background-color: hsl(150, 100%, 66%);
+    position: absolute;
+    bottom: -35px;
+    outline: 2px solid hsl(150, 100%, 66%);
+    border-radius: 70px;
+    
+    
+    
+}
+.dice:hover{
+    cursor:pointer;
+}
+
+p{
+    font-size: 28px;
+    color: hsl(193, 38%, 86%);
+    line-height: 45px;
+     
+}
+
+.Patter-Divider{
+    width:100%;
+    margin-bottom: 35px;
+
+}
+
+h1{
+    color: hsl(150, 100%, 66%);
+    letter-spacing: 4px;
+}
+
+@media screen and (max-width:670px) {
+    main{
+        width:90%;
+      max-height: 700px;
+      min-height: 350px;
+       
+    }
+    .Patter-Divider{
+        content: url(./advice-generator-app-main/images/pattern-divider-mobile.svg);
+       
+        
+    }
+    body{
+        height: auto;
+    }
+   
+
+
+}
